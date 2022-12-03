@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace FinalProject
 {
-    public partial class MainMenu : Form
+    public partial class HowToPlay : Form
     {
-        public MainMenu()
+        public HowToPlay()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

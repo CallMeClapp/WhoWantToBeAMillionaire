@@ -33,6 +33,7 @@ namespace FinalProject
             this.label1 = new System.Windows.Forms.Label();
             this.btnNewGame = new System.Windows.Forms.Button();
             this.btnDetails = new System.Windows.Forms.Button();
+            this.btnLeaderBD = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -48,7 +49,7 @@ namespace FinalProject
             // 
             this.btnNewGame.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(7)))));
             this.btnNewGame.Font = new System.Drawing.Font("Wide Latin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewGame.Location = new System.Drawing.Point(23, 330);
+            this.btnNewGame.Location = new System.Drawing.Point(28, 173);
             this.btnNewGame.Name = "btnNewGame";
             this.btnNewGame.Size = new System.Drawing.Size(356, 91);
             this.btnNewGame.TabIndex = 1;
@@ -59,12 +60,24 @@ namespace FinalProject
             // 
             this.btnDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(7)))));
             this.btnDetails.Font = new System.Drawing.Font("Wide Latin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetails.Location = new System.Drawing.Point(1187, 330);
+            this.btnDetails.Location = new System.Drawing.Point(28, 327);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(356, 91);
             this.btnDetails.TabIndex = 2;
             this.btnDetails.Text = "How To Play";
             this.btnDetails.UseVisualStyleBackColor = false;
+            // 
+            // btnLeaderBD
+            // 
+            this.btnLeaderBD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(7)))));
+            this.btnLeaderBD.Font = new System.Drawing.Font("Wide Latin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeaderBD.Location = new System.Drawing.Point(28, 481);
+            this.btnLeaderBD.Name = "btnLeaderBD";
+            this.btnLeaderBD.Size = new System.Drawing.Size(356, 91);
+            this.btnLeaderBD.TabIndex = 3;
+            this.btnLeaderBD.Text = "Leaderboards";
+            this.btnLeaderBD.UseVisualStyleBackColor = false;
+            this.btnLeaderBD.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainMenu
             // 
@@ -74,6 +87,7 @@ namespace FinalProject
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1564, 746);
+            this.Controls.Add(this.btnLeaderBD);
             this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.label1);
@@ -90,6 +104,7 @@ namespace FinalProject
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnNewGame;
         private System.Windows.Forms.Button btnDetails;
+        private System.Windows.Forms.Button btnLeaderBD;
     }
 }
 
