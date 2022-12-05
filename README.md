@@ -1,2 +1,0 @@
-# WhoWantToBeAMillionaire
-I Wanna!
